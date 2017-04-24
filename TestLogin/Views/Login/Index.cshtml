@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "login";
+}
+@ViewBag.Notice
+<h2>Login Page</h2>
+<form class="form-horizontal loginFrm" method="post" action="/Login/Index">
+    
+    <div class="control-group">
+        <input type="text" id="Email" name="Email" placeholder="Email">
+
+    </div>
+   <br />
+     <div class="control-group">
+        <input type="password" id="Password" name="Password" placeholder="Password">
+    </div>
+    
+    <div class="control-group">
+        <label class="checkbox">
+            <input type="checkbox"> Nhớ mật khẩu
+        </label>
+    </div>
+    
+    <button type="submit" class="btn btn-success">Đăng nhập</button>
+
+</form>
+
